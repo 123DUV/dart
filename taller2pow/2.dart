@@ -24,7 +24,7 @@ class Programador extends Empleado {
     print('$nombre está codificando en ${lenguajes.join(', ')}');
   }
 
-  @override
+ 
   void trabajar() {
     super.trabajar();
     codificar();
