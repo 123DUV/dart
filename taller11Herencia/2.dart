@@ -34,9 +34,9 @@ class Aula {
   String ubicacion;
   int capacidad;
   bool esTeorica;
-  String tipoPupitre; // Solo para aulas teóricas
-  bool tieneAltavoces; // Solo para aulas prácticas
-  bool tieneCamara; // Solo para aulas prácticas
+  String tipoPupitre; 
+  bool tieneAltavoces; 
+  bool tieneCamara; 
 
   Aula.teorica(this.nombre, this.ubicacion, this.capacidad, this.tipoPupitre)
       : esTeorica = true,
@@ -106,7 +106,7 @@ class Sistema {
   }
 
   String _obtenerHora(int indice) {
-    // Implementar lógica para obtener la hora basada en el índice
+    
     List<String> horas = [
       '08:30', '09:30', '10:30', '11:30', '12:30', '13:30',
       '15:30', '16:30', '17:30', '18:30', '19:30', '20:30'
